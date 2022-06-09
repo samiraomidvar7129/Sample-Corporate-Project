@@ -1,0 +1,38 @@
+.container{
+    max-width:60rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+.navbar{
+display: flex;
+align-items: center;
+}
+.nav-logo{
+margin-right: 1.5rem;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+
+}
+
+.menu-link{
+    color: #081D43;
+    margin-left: 1rem;
+}
+.header-link{
+padding: 0.5rem 1rem;
+border-radius: 4px;
+color: white;
+}
+
+.header-icon{
+    display: none;
+}

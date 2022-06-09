@@ -1,0 +1,45 @@
+.footer{
+    margin-top: 2rem;
+}
+.footer-newsletter--top{
+    background-color: rgb(70, 139, 243);
+    padding: 3rem 0;
+    color: #fff;
+}
+.newsletter-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-email{
+    background-color: rgb(37, 212, 235);
+    outline: none;
+    border: none;
+    padding:  0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.newsletter-Email{
+    background-color: white;
+    flex-basis: 18rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 0.2rem 0.2rem 1rem;
+}
+.newsletter-txt{
+    outline: none;
+    border: none;
+    width: 100%;
+}
+.footer-copy-right{
+    color: #ddd;
+    padding: 2rem 0;
+}
+.copy-right-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

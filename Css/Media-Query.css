@@ -1,0 +1,118 @@
+
+/* media query--------------------- */
+@media screen and (max-width:1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media  only screen and (max-width:992px) {
+    .container{
+        max-width: 720px;
+    }
+
+    .header-link{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .header-icon{
+        display: block;
+        cursor: pointer;
+        font-size: 22px;
+    }
+    .header-content{
+
+        flex-direction: column-reverse;
+    }
+    .header-center{
+        margin-top: 3rem;
+    }
+    .header-content--left{
+        max-width: 100%;
+    }
+    .header-content--right{
+        margin-bottom: 5rem;
+    }
+    .header-content--right img{
+        width: 20rem;
+        height: 20rem;
+    }
+    .main-works--content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-works--content-item{
+        margin-top: 2rem;
+        background-color: rgba(226, 216, 216, 0.925);
+        padding: 15px;
+    }
+  
+}
+@media  only screen and (max-width:768px){
+    .menu{
+        display: none;
+    }
+    .menu{
+        position: fixed;
+        top: 0;
+        left: -256px;
+        bottom: 0;
+        background-color: rgb(31, 146, 223);
+        width: 16rem;
+        display: flex;
+        flex-direction: column;
+        padding: 1rem ;
+        transition: 0.3s all;
+    }
+
+    .menu-item{
+        font-size: 0.5rem;
+        margin: 2rem 0 0 1rem;
+        padding: 0.5rem;
+     
+    }
+    .menu-item:hover{
+    background-color: #ffff;
+    }
+    .menu-item:hover a{
+        color: black;
+    }
+    .menu-item a{
+        color: #fff;
+    }
+   
+    .newsletter-text{
+        font-size: 1rem;
+    }
+    .portfolio-item{
+        flex-basis:16rem;
+    margin-bottom: 2rem;
+    }
+    .newsletter-wrapper{
+        flex-direction: column;
+    }
+    .newsletter-Email{
+        margin-top: 2rem;
+        flex-basis: auto;
+        width: 100%;
+    }
+}
+@media  only screen and (max-width:600px){
+    .portfolio-item{
+        flex-basis:6rem;
+    margin-bottom: 2rem;
+    }
+    .comment{
+        flex-basis: 22rem;
+    }
+    .portfolio-item{
+        flex-basis:100%;
+    margin-bottom: 2rem;
+    }
+}
+
+
+
+

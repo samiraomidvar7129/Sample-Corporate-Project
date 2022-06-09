@@ -1,0 +1,40 @@
+/* start main---------- */
+
+.main{
+    margin-top: 7rem;
+}
+.main-works--content{
+    display: flex;
+    margin-top: 3rem;
+    text-align: center;
+}
+.main-works--text,.portfolio-text{
+    text-align: center;
+    color: black;
+    margin-bottom: 2rem;
+}
+.main-works--title,.portfolio-title{
+    text-align: center;
+    color: #ddd;
+    font-size: 14px;
+}
+
+.main-works--content{
+    justify-content: space-around;
+}
+
+.works-content--item-paragraf{
+    color: black;
+    line-height: 2rem;
+    margin-top: 2rem;
+    max-width: 16rem;
+}
+.works-img{
+    max-width:26rem;
+    margin: 5rem auto;
+    
+}
+.works-img img{
+    width: 100%;
+    
+}
